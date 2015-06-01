@@ -10,6 +10,10 @@
 			font-family: sans-serif;
 			padding: 0.2em 1em;
 		}
+		div{
+			margin-top: .5em;
+			margin-bottom: .5em;
+		}
 	}
 	form {
 		label {
@@ -18,10 +22,11 @@
 			text-align: right;
 			padding-top: 0.2em;
 			margin-right: 0.1em;
-		display: block;
+			display: block;
+			clear: both;
 		}
 		select, textarea, input {
-		margin-left: 0.5em;
+			margin-left: 0.5em;
 		}
 		.submit {
 			margin-left: 4em;
